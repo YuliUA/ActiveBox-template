@@ -1,0 +1,49 @@
+/* <i class="sprite sprite-facebook"></i>
+<i class="sprite sprite-facebook-blue"></i>
+<i class="sprite sprite-linkedin"></i>
+<i class="sprite sprite-linkedin-blue"></i>
+<i class="sprite sprite-tweet"></i>
+<i class="sprite sprite-tweet-blue"></i> */
+
+
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook {
+    width: 40px;
+    height: 40px;
+    background-position: -5px -5px;
+}
+
+.sprite-facebook-blue {
+    width: 40px;
+    height: 40px;
+    background-position: -55px -5px;
+}
+
+.sprite-linkedin {
+    width: 40px;
+    height: 40px;
+    background-position: -105px -5px;
+}
+
+.sprite-linkedin-blue {
+    width: 40px;
+    height: 40px;
+    background-position: -155px -5px;
+}
+
+.sprite-tweet {
+    width: 40px;
+    height: 40px;
+    background-position: -205px -5px;
+}
+
+.sprite-tweet-blue {
+    width: 40px;
+    height: 40px;
+    background-position: -255px -5px;
+}

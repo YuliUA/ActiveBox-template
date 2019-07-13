@@ -1,0 +1,259 @@
+/****************** STYLING FEATURES SECTION*********************/
+
+.features {
+    width: 1170px;
+    height: 100%;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 121px auto;
+}
+
+.features-box {
+    width: 296px;
+    height: 187px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px
+}
+
+.features-box h4 {
+    color: #2d3033;
+    font-family: "Raleway";
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 35px 0 25px;
+}
+
+.features-box p {
+    color: #6c7279;
+    font-family: "Raleway";
+    font-size: 0.875rem;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.3rem;
+    letter-spacing: -0.5px;
+    margin: 0;
+}
+
+/*********************STYLING WORKS SECTION*************************/
+
+.works {
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+/*****IMAGE OVERLAY EFFECTS ON HOVER*****/
+
+.works figure {
+    width: 25%;
+    position: relative;
+    display: inline-block;
+    border-width: 1px 1px 0 0;
+    border-style: solid;
+    border-color: transparent;
+    margin: 0;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(232, 69, 69, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.works figure:hover .overlay {
+    opacity: 0.9;
+}
+
+.text, .text-header {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 14px;
+}
+
+.text-header {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.text {
+    font-weight: 400;
+    margin: 0.875rem;
+}
+
+/*******---********/
+
+/*************************STYLING TEAM SEACTION*****************/
+
+.team {
+    width: 62%;
+    justify-content: space-evenly;
+    margin: 100px auto;
+}
+
+.team-member {
+    width: 270px;
+    height: 580px;
+    margin-right: 2.5%;
+}
+
+.team-member:last-of-type {
+    margin-right: 0;
+}
+
+.team-member-name {
+    color: #2d3033;
+    font-family: "Raleway";
+    font-size: 1.375rem;
+    font-weight: 400;
+    margin: 30px 0 16px;
+}
+
+.team-member-position {
+    color: #e84545;
+    font-family: Raleway;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.team-member-comment {
+    color: #6c7279;
+    font-family: Raleway;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.3rem;
+    margin: 30px 0;
+}
+
+.team-member-social i {
+    margin-right: 5px
+}
+
+/********************STYLING CLIENTS SECTION*********************/
+
+.clients {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.clients-img {
+    width: 50%;
+    height: 100%;
+    background: url("../img/clients/Clients1.png") no-repeat right top;
+    background-size: cover;
+}
+
+.wraper-clients-comment {
+    width: 50%;
+    height: 100%;
+    background-color: #53354a;
+}
+
+.clients-comment {
+    width: 86%;
+    height: 289px;
+    margin-top: 114px;
+    margin-left: 14%
+}
+
+.blockquote {
+    width: 100%;
+    height: 163px;
+    color: #ffffff;
+    font-family: "Cardo";
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.625rem;
+    letter-spacing: -1.5px;
+}
+
+.clients-comment-sign {
+    color: #ffffff;
+    font-family: "Raleway";
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.switch-wraper {
+    width: 92px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
+    margin: 64px auto;
+}
+
+.switcher {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    opacity: 0.2;
+}
+
+.switcher:hover {
+    opacity: 1;
+}
+
+/**********************STYLING DOWNLOAD SECTION***********************/
+
+.download {
+    width: 624px;
+    height: 139px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.download h2 {
+    color: #2d3033;
+    font-family: "Raleway";
+    font-size: 1.75rem;
+    font-weight: 300;
+    line-height: 1.3rem;
+    letter-spacing: -0.5px;
+}
+
+.download p {
+    color: #2d3033;
+    font-family: "Raleway";
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1.3rem;
+    text-transform: uppercase;
+    margin-top: 16px;
+}
+
+.download>.button {
+    margin: 40px auto;
+}

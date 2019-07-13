@@ -1,0 +1,103 @@
+@media screen and (max-width: 1190px){
+    /**********HEADER********/
+    .logo{
+        text-align: center
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+    .h2,.musthead p, 
+    .head-line, nav, 
+    .logo{
+        width: 100%;
+    }
+    /********MAIN************/
+    .features{
+        width: 750px
+    }
+    .team{
+        flex-wrap: wrap;
+    }
+    .team-member{
+        margin-bottom: 50px
+    }
+    .blockquote{
+        font-size: 1.5rem;
+        overflow-y: hidden;
+    }
+    .contacts-about{
+        width: 100%;
+        margin: 30px auto;
+    }
+    .contacts-wraper{
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 770px){
+    .musthead h1{
+        font-size: 3rem;
+        padding: 0 20px;
+    }
+    .musthead p{
+        font-size: 1rem;
+        padding: 0 20px
+    }
+    .features{
+        width: 100%;
+        justify-content: space-around
+    }
+    .works figure{
+        width: 50%;
+    }
+    .clients-img{
+        display: none;
+    }
+    .wraper-clients-comment{
+        width: 100%;
+    }
+    .blockquote{
+        width: 90%;
+        margin: 14% auto 0;
+    }
+    .download{
+        width: 90%;
+        height: 100%;
+    }
+    .download h2{
+        line-height: 1.2;
+    }
+    .contacts-about{
+        width: 70%;
+        height: 50px;
+        overflow: hidden;
+    }
+   
+    .contacts-social{
+        margin-left: 0
+    }
+}
+
+@media screen and (max-width: 450px){
+    .logo{
+        margin-top: 15px
+    }
+    .musthead{
+        height: 500px;
+    }
+    .musthead h1{
+        font-size: 2.2rem;
+        line-height: 1.2;
+        margin: 50px auto;
+    }
+    .musthead p{
+        display: none;
+    }
+    .menu-mobile{
+        display: block
+    }
+    nav .top-menu{
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Cardo";
+    src: url("../fonts/Cardo-Regular.ttf")
+}
+@font-face{
+    font-family: "Open Sans";
+    src: url("../fonts/OpenSans-Regular.ttf")
+}
+@font-face{
+    font-family: "Raleway";
+    src: url("../fonts/Raleway-Regular.ttf")
+}
+@font-face{
+    font-family: "Webdings";
+    src: url("../fonts/webdings.ttf")
+}
